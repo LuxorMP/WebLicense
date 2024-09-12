@@ -1,46 +1,184 @@
-LuxorMP Website License Agreement
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="LuxorMP Website License Agreement">
+    <meta property="og:description" content="LuxorMP Website License Agreement Effective Date: September 10, 2024">
+    <meta property="og:image" content="https://github.com/LuxorMP/LuxorMP.github.io/blob/main/Luxor_logo.png?raw=true">
+    <meta property="og:url" content="https://luxormp.github.io/WebLicense">
+    <meta property="og:type" content="website">
+    <meta content="#800080" data-react-helmet="true" name="theme-color" />
+    <title>LuxorMP Website License Agreement</title>
+    <style>
+        @font-face {
+            font-family: 'Burbank Big Condensed';
+            src: url('Burbank') format('woff2');
+            font-weight: bold;
+            font-style: normal;
+        }
 
-Effective Date: September 10, 2024
+        body, html {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: #fff;
+            overflow-x: hidden;
+            height: 100%;
+            position: relative;
+        }
 
-1. License Grant
+        .hero-section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://cdn.ajaxfnc.com/uploads/luxor.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
 
-By accessing or using the content, materials, and assets (collectively referred to as "Assets") available on LuxorMP.github.io ("Website"), you agree to be bound by the terms of this License Agreement. Luxormp grants you a non-exclusive, non-transferable, revocable license to use the Assets solely for personal, non-commercial purposes.
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            animation: fire 5s linear infinite;
+        }
 
-2. Intellectual Property Rights
+        @keyframes fire {
+            0% { background-position: 0 0; }
+            100% { background-position: 100% 100%; }
+        }
 
-All Assets on the Website, including but not limited to text, images, videos, graphics, and software, are the intellectual property of Luxormp. You do not acquire any ownership rights to the Assets by using them.
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            border-radius: 20px;
+        }
 
-3. Restrictions
+        .hero-title {
+            font-family: 'Burbank Big Condensed';
+            font-size: 48px;
+            color: #ff69b4;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+            margin-bottom: 20px;
+        }
 
-You may not:
+        .hero-subtitle {
+            font-size: 24px;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
 
-Reproduce, distribute, modify, or create derivative works from the Assets without express written permission from Luxormp.
-Use the Assets for commercial purposes, including but not limited to advertising, merchandising, or selling products or services.
-Remove or alter any copyright, trademark, or other proprietary notices from the Assets.
-Share, publish, or otherwise make the Assets available to any third party without explicit consent from Luxormp.
-4. Enforcement and Removal
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            position: relative;
+            z-index: 2;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+        }
 
-If Luxormp determines that any Assets are being used in violation of this License Agreement, we reserve the right to:
+        h1, h2, h3 {
+            color: #00ffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
 
-Request immediate removal of the infringing content or materials.
-Take legal action to enforce our rights under this agreement, including but not limited to seeking injunctions and damages.
-5. Termination
+        h1 {
+            font-size: 36px;
+        }
 
-This License Agreement will terminate automatically if you breach any of its terms. Upon termination, you must cease all use of the Assets and remove any copies you have made.
+        h2 {
+            font-size: 28px;
+        }
 
-6. Governing Law
+        h3 {
+            font-size: 22px;
+        }
 
-This Agreement shall be governed by and construed in accordance with the laws of [Your State/Country], without regard to its conflict of law principles.
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ffffff;
+        }
 
-7. Contact Information
+        .footer {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px 40px;
+            border-radius: 50px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">LuxorMP Website License Agreement</h1>
+            <p class="hero-subtitle">Effective Date: September 10, 2024</p>
+        </div>
+    </div>
 
-For any questions or concerns regarding this License Agreement or to request permission for use of the Assets, please contact us at:
+    <div class="content">
+        <h2>1. License Grant</h2>
+        <p>By accessing or using the content, materials, and assets (collectively referred to as "Assets") available on LuxorMP.github.io ("Website"), you agree to be bound by the terms of this License Agreement. Luxormp grants you a non-exclusive, non-transferable, revocable license to use the Assets solely for personal, non-commercial purposes.</p>
 
-Luxormp
-LuxorMP.github.io
+        <h2>2. Intellectual Property Rights</h2>
+        <p>All Assets on the Website, including but not limited to text, images, videos, graphics, and software, are the intellectual property of Luxormp. You do not acquire any ownership rights to the Assets by using them.</p>
 
-8. Amendments
+        <h2>3. Restrictions</h2>
+        <p>You may not:</p>
+        <ul>
+            <li>Reproduce, distribute, modify, or create derivative works from the Assets without express written permission from Luxormp.</li>
+            <li>Use the Assets for commercial purposes, including but not limited to advertising, merchandising, or selling products or services.</li>
+            <li>Remove or alter any copyright, trademark, or other proprietary notices from the Assets.</li>
+            <li>Share, publish, or otherwise make the Assets available to any third party without explicit consent from Luxormp.</li>
+        </ul>
 
-Luxormp reserves the right to modify this License Agreement at any time. Any changes will be posted on the Website, and your continued use of the Assets constitutes acceptance of the modified terms.
+        <h2>4. Enforcement and Removal</h2>
+        <p>If Luxormp determines that any Assets are being used in violation of this License Agreement, we reserve the right to:</p>
+        <ul>
+            <li>Request immediate removal of the infringing content or materials.</li>
+            <li>Take legal action to enforce our rights under this agreement, including but not limited to seeking injunctions and damages.</li>
+        </ul>
 
-By using the Assets on this Website, you acknowledge that you have read, understood, and agree to be bound by this License Agreement.
+        <h2>5. Termination</h2>
+        <p>This License Agreement will terminate automatically if you breach any of its terms. Upon termination, you must cease all use of the Assets and remove any copies you have made.</p>
+
+        <h2>6. Governing Law</h2>
+        <p>This Agreement shall be governed by and construed in accordance with the laws of [Your State/Country], without regard to its conflict of law principles.</p>
+
+        <h2>7. Contact Information</h2>
+        <p>For any questions or concerns regarding this License Agreement or to request permission for use of the Assets, please contact us at:</p>
+        <p>Luxormp<br>LuxorMP.github.io</p>
+
+        <h2>8. Amendments</h2>
+        <p>Luxormp reserves the right to modify this License Agreement at any time. Any changes will be posted on the Website, and your continued use of the Assets constitutes acceptance of the modified terms.</p>
+
+        <p>By using the Assets on this Website, you acknowledge that you have read, understood, and agree to be bound by this License Agreement.</p>
+    </div>
+
+    <footer class="footer">© 2024 LuxorMP</footer>
+</body>
+</html>
